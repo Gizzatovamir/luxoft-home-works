@@ -12,7 +12,6 @@ class MyClass{
 	std::string DigitName;
 	int flag = 0;
 	std::array<std::string,10> DigitNames = {"zero","one","two","three","four","five","six","seven","eight","nine"};
-//	Myclass() = default;
 	MyClass(int i){
 		if((i >= 0) && (i < 10)){
 			Digit = i;
@@ -25,9 +24,7 @@ class MyClass{
 	};
 	MyClass(MyClass&& other) noexcept{
 		Digit = other.Digit;
-//		other.Digit = nullptr;
 		DigitName = other.DigitName;
-//		other.DigitName = nullptr;
 	};
 	MyClass() = default;
 	MyClass(const MyClass& other){
