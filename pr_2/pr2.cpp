@@ -25,6 +25,7 @@ class MyClass{
 	MyClass(MyClass&& other) noexcept{
 		Digit = other.Digit;
 		DigitName = other.DigitName;
+		i++
 	};
 	MyClass() = default;
 	MyClass(const MyClass& other){
