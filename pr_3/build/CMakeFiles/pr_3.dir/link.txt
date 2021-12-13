@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/pr_3.dir/pr_3.cpp.o  -o pr_3  -lpthread 
