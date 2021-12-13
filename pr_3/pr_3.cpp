@@ -24,14 +24,14 @@ bool g_ready = false;
 
 int produceData() {
   int randomNumber = rand() % 1000;
-  std::cout << "produce data: " << randomNumber << "\n";
+  std::cout << "produced data: " << randomNumber << std::endl;
   return randomNumber;
 }
 
 
 
 
-void consumeData(int data) { std::cout << "receive data: " << data << "\n"; }
+void consumeData(int data) { std::cout << "received data: " << data << std::endl; }
 
 // consumer thread function
 void consumer() {

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp" "/home/amir/Desktop/luxoft-home-works/pr_3/CMakeFiles/pr_3.dir/pr_3.cpp.o"
+  "/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp" "/home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles/pr_3.dir/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

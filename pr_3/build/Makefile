@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/Desktop/luxoft-home-works/pr_3
+CMAKE_SOURCE_DIR = /home/amir/Desktop/luxoft-home-works/pr_3/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/Desktop/luxoft-home-works/pr_3
+CMAKE_BINARY_DIR = /home/amir/Desktop/luxoft-home-works/pr_3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Desktop/luxoft-home-works/pr_3/CMakeFiles /home/amir/Desktop/luxoft-home-works/pr_3/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles /home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Desktop/luxoft-home-works/pr_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ pr_3/fast:
 	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/build
 .PHONY : pr_3/fast
 
-pr_3.o: pr_3.cpp.o
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.o: home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.o
 
-.PHONY : pr_3.o
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.o
 
 # target to build an object file
-pr_3.cpp.o:
-	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/pr_3.cpp.o
-.PHONY : pr_3.cpp.o
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.o:
+	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.o
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.o
 
-pr_3.i: pr_3.cpp.i
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.i: home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.i
 
-.PHONY : pr_3.i
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.i
 
 # target to preprocess a source file
-pr_3.cpp.i:
-	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/pr_3.cpp.i
-.PHONY : pr_3.cpp.i
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.i:
+	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.i
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.i
 
-pr_3.s: pr_3.cpp.s
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.s: home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.s
 
-.PHONY : pr_3.s
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.s
 
 # target to generate assembly for a file
-pr_3.cpp.s:
-	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/pr_3.cpp.s
-.PHONY : pr_3.cpp.s
+home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.s:
+	$(MAKE) -f CMakeFiles/pr_3.dir/build.make CMakeFiles/pr_3.dir/home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.s
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_3/pr_3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pr_3"
-	@echo "... pr_3.o"
-	@echo "... pr_3.i"
-	@echo "... pr_3.s"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_3/pr_3.o"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_3/pr_3.i"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_3/pr_3.s"
 .PHONY : help
 
 
