@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp
+random
+-
+iostream
+-
+chrono
+-
+fstream
+-
+thread
+-
+vector
+-
+
