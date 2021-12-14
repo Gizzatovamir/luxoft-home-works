@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amir/Desktop/luxoft-home-works/pr_4/observer.cpp
+condition_variable
+-
+iostream
+-
+list
+-
+queue
+-
+thread
+-
+set
+-
+stdlib.h
+-
+time.h
+-
+
