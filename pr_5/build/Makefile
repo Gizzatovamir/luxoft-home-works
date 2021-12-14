@@ -123,32 +123,32 @@ pr_5/fast:
 	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/build
 .PHONY : pr_5/fast
 
-home/amir/Desktop/luxoft-home-works/pr_5/main.o: home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.o: home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o
 
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.o
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.o
 
 # target to build an object file
-home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o:
-	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o:
+	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o
 
-home/amir/Desktop/luxoft-home-works/pr_5/main.i: home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.i: home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i
 
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.i
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.i
 
 # target to preprocess a source file
-home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i:
-	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i:
+	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i
 
-home/amir/Desktop/luxoft-home-works/pr_5/main.s: home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.s: home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s
 
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.s
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.s
 
 # target to generate assembly for a file
-home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s:
-	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s
-.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s
+home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s:
+	$(MAKE) -f CMakeFiles/pr_5.dir/build.make CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s
+.PHONY : home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pr_5"
-	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/main.o"
-	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/main.i"
-	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/main.s"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/pr_5.o"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/pr_5.i"
+	@echo "... home/amir/Desktop/luxoft-home-works/pr_5/pr_5.s"
 .PHONY : help
 
 

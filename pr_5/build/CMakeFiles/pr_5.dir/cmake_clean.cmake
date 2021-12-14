@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o"
+  "CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o"
   "pr_5"
   "pr_5.pdb"
 )

@@ -1,4 +1,4 @@
-
+#include <random>
 #include <iostream>
 #include <chrono>
 #include <fstream>
@@ -6,6 +6,11 @@
 #include <vector>
 
 using namespace std::chrono_literals;
+
+struct to_return{
+    uint8_t buffer;
+    int m_length;
+};
 
 class file_reader_t {
 public:
@@ -52,7 +57,6 @@ private:
     static inline std::chrono::seconds default_delay = 5s;
 };
 
-// https://stackoverflow.com/questions/440133/how-do-i-create-a-random-alpha-numeric-string-in-c
 std::string gen_random(const int len) {
     static const char alphanum[] =
         "0123456789"
@@ -60,9 +64,11 @@ std::string gen_random(const int len) {
         "abcdefghijklmnopqrstuvwxyz";
     std::string tmp_s;
     tmp_s.reserve(len);
-
+    std::random_device rd;  
+    std::mt19937 gen(rd()); 
+    std::uniform_int_distribution<> distrib(0, sizeof(alphanum) - 1);
     for (int i = 0; i < len; ++i) {
-        tmp_s += alphanum[rand() % (sizeof(alphanum) - 1)];
+        tmp_s += alphanum[distrib(gen)];
     }
     
     return tmp_s;
@@ -91,9 +97,8 @@ int main() {
         }
     });
     std::vector<uint8_t> result = reader.read();
-    for(const auto &item: result){
-        std::cout << item << std::endl;
-    }
+
+    
 
     writer.join();
     

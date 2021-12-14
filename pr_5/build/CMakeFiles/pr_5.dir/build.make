@@ -57,27 +57,27 @@ include CMakeFiles/pr_5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pr_5.dir/flags.make
 
-CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o: CMakeFiles/pr_5.dir/flags.make
-CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o: /home/amir/Desktop/luxoft-home-works/pr_5/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Desktop/luxoft-home-works/pr_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o -c /home/amir/Desktop/luxoft-home-works/pr_5/main.cpp
+CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o: CMakeFiles/pr_5.dir/flags.make
+CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o: /home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Desktop/luxoft-home-works/pr_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o -c /home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp
 
-CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Desktop/luxoft-home-works/pr_5/main.cpp > CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.i
+CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp > CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.i
 
-CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Desktop/luxoft-home-works/pr_5/main.cpp -o CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.s
+CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp -o CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.s
 
 # Object files for target pr_5
 pr_5_OBJECTS = \
-"CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o"
+"CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o"
 
 # External object files for target pr_5
 pr_5_EXTERNAL_OBJECTS =
 
-pr_5: CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o
+pr_5: CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o
 pr_5: CMakeFiles/pr_5.dir/build.make
 pr_5: CMakeFiles/pr_5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amir/Desktop/luxoft-home-works/pr_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pr_5"

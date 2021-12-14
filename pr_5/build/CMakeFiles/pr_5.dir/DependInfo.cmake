@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp" "/home/amir/Desktop/luxoft-home-works/pr_5/build/CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/main.cpp.o"
+  "/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp" "/home/amir/Desktop/luxoft-home-works/pr_5/build/CMakeFiles/pr_5.dir/home/amir/Desktop/luxoft-home-works/pr_5/pr_5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
