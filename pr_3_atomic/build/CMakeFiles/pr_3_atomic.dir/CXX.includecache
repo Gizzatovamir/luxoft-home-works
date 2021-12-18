@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amir/Desktop/luxoft-home-works/pr_3_atomic/pr_3_atomic.cpp
+cstdlib
+-
+iostream
+-
+mutex
+-
+thread
+-
+chrono
+-
+queue
+-
+condition_variable
+-
+atomic
+-
+
