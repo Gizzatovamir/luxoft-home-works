@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Observer.dir/home/amir/Desktop/luxoft-home-works/pr_4/observer.cpp.o  -o Observer  -lpthread 
