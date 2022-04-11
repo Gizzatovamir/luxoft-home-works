@@ -1,0 +1,3 @@
+/home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles/rebuild_cache.dir
+/home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles/edit_cache.dir
+/home/amir/Desktop/luxoft-home-works/pr_3/build/CMakeFiles/pr_3.dir

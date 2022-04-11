@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/DrySoft.dir/home/amir/Desktop/luxoft/pr_2/main.cpp.o -o DrySoft  -lpthread 

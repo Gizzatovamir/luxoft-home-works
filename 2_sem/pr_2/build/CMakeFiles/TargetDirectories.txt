@@ -1,0 +1,3 @@
+/home/amir/Desktop/luxoft/pr_2/build/CMakeFiles/DrySoft.dir
+/home/amir/Desktop/luxoft/pr_2/build/CMakeFiles/edit_cache.dir
+/home/amir/Desktop/luxoft/pr_2/build/CMakeFiles/rebuild_cache.dir
